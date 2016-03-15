@@ -1,7 +1,7 @@
 function numero_litros(comp_pista, num_voltas, consumo_litros)
 
 	return (comp_pista * num_voltas) / (consumo_litros * 1000) 
-
+ 
 end
 
 print("Comprimento da pista: ")
