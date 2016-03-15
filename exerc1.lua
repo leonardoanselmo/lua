@@ -1,0 +1,11 @@
+print("Informe Nota 1:")
+local n1, n2 = io.read("*number")
+print("Informe Nota 2:")
+local n2 = io.read("*number")
+print("Informe Nota 3:")
+local n3 = io.read("*number")
+print("Informe Nota 4:")
+local n4 = io.read("*number")
+local media = (n1+n2+n3+n4)/4
+print("A média é: ")
+print(media)
