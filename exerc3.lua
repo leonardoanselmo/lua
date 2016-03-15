@@ -1,3 +1,6 @@
+-- Calcula o numero de litros necessario para percorrer todo o percusso.
+
+
 function numero_litros(comp_pista, num_voltas, consumo_litros)
 
 	return (comp_pista * num_voltas) / (consumo_litros * 1000) 
